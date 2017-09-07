@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>注册成功页面</title>
+    <style type="text/css">
+    .mainDiv{margin-top:300px;font-size:20px;
+             width:950px;margin-left:auto;margin-right:auto;
+             }
+    </style>
+    <script type="text/javascript">
+        var leftSeconds = 5;
+        setInterval(function () {
+            if (leftSeconds <= 0) {
+                window.location.href = '../Login.aspx';
+            }
+            document.getElementById("leftDiv").innerText = leftSeconds;
+            leftSeconds--;
+        }, 1000);
+    </script>
+</head>
+<body>
+<div class="mainDiv">
+页面注册成功，页面在5秒钟以后自动转向登录页面！如果你想立即进入登录页面，请<a href="../Login.aspx">点击这里</a>
+<br />
+<center>
+还剩&nbsp;<span id="leftDiv">5</span>&nbsp;秒
+</center>
+</div>
+</body>
+</html>

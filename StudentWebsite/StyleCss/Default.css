@@ -1,0 +1,78 @@
+﻿a{text-decoration:none;color:#042780;}
+a:hover{text-decoration:none;color:#336bf9;}
+/*图片栏*/
+.main_picture
+{
+    height:280px;
+    width:370px;
+    border-style:ridge;
+    float:left;
+}
+/*新闻栏*/
+.main_news
+{
+    height:285px;
+    width:570px;
+    background-color:#eaecf7;
+    float:right;
+    clear:none;
+}
+
+/*政策法规*/
+.main_statworking
+{
+    height:285px;
+    width:950px;
+    margin-top: 10px;
+}
+.main_laws
+{
+   width:470px;
+   height:280px;
+   float:left;
+   background-color:#eaecf7;
+   }
+/*创业动态*/
+.main_zip
+{
+    width:470px;
+    height:280px;
+    float:right;
+    background-color:#eaecf7;
+}
+
+/*创业实例*/
+.main_kuangjia
+{
+    height:285px;
+    width:950px;
+    margin-top:5px;
+}
+
+.main_zhinan
+{
+    width:330px;
+    height:280px;
+    background-color:#eaecf7;
+    float:left;
+}
+
+/*创业技巧*/
+.main_jiqiao
+{
+    width :330px;
+    height:280px;
+    background-color:#eaecf7;
+    margin-left:15px;
+    float:left;
+}
+
+/**/
+.end
+{
+    width:260px;
+    height:280px;
+    background-color:#eaecf7;
+    float:right;
+}
+

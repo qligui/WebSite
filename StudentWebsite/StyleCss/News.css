@@ -1,0 +1,105 @@
+﻿.main_title
+{
+    background:url('/Images/news_lan.jpg');
+    height:30px;
+    width:570px;
+}
+.main_more a
+{
+    float:right;
+    height: 15px;
+    margin-top:5px;
+}
+.main_newsbody
+{
+    margin-top:10px;
+}
+.main_newsbody li
+{
+  border-bottom:1px dashed #adadb0;
+  margin-top:15px;
+  text-overflow:ellipsis; 
+  overflow:hidden;
+  white-space:nowrap;
+  width:570px; 
+  cursor:hand; 
+}
+
+.main_newslaws li
+{
+  border-bottom:1px dashed #adadb0;
+  margin-top:15px;
+  text-overflow:ellipsis; 
+  overflow:hidden;
+  white-space:nowrap;
+  width:470px; 
+  cursor:hand; 
+}
+.main_pic
+{
+    background:url('/Images/laws.jpg');
+    height:30px;
+    width:470px;
+}
+
+
+.main_down
+{
+    background:url('/Images/download.jpg');
+    height:30px;
+    width:470px;  
+}
+.main_newsload li
+{
+  border-bottom:1px dashed #adadb0;
+  margin-top:15px;
+  text-overflow:ellipsis; 
+  overflow:hidden;
+  white-space:nowrap;
+  width:470px; 
+  cursor:hand; 
+}
+.main_workexplame
+{
+    background:url('/Images/workeple.jpg');
+    height:30px;
+    width:330px;
+}
+
+.main_newsexe li
+{
+  border-bottom:1px dashed #adadb0;
+  margin-top:15px;
+  text-overflow:ellipsis; 
+  overflow:hidden;
+  white-space:nowrap;
+  width:330px; 
+  cursor:hand; 
+}
+
+.main_workskill
+{
+    background:url('/Images/workskill.jpg');
+    height:30px;
+    width:330px;  
+}
+.main_newsskill li
+{
+  border-bottom:1px dashed #adadb0;
+  margin-top:15px;
+  text-overflow:ellipsis; 
+  overflow:hidden;
+  white-space:nowrap;
+  width:330px; 
+  cursor:hand; 
+}
+
+.main_link
+{
+    background:url('/Images/link.jpg');
+    height:30px;
+    width:260px; 
+}
+
+.author{margin-left:400px;}
+.date{float:right;}

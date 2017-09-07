@@ -1,0 +1,24 @@
+﻿a{text-decoration:none;}
+.mainleft,.userTopic{margin-top:20px;}
+.userLeft{width:150px;float:left;margin-top:20px;}
+.userTopic{margin:10px 0 0;color:#666;line-height:24px; height:24px; background:#dfe9f0; border:solid 1px #ccd0d3; padding:5px;}
+/*用户管理*/
+.list_user,.list_line,.list_post{overflow: hidden; width: 100%; clear: both;background:#F4F4F4;height: 25px;
+}
+.list_user h2{color: #986265; margin-top:5px; margin-left:10px; font-size: 15px;
+               font-weight: bold; height: 20px; line-height: 20px;background:#F4F4F4;cursor:hand;
+               padding:0 0 0 20px; background: url(/Method/userImages/user.png) no-repeat;}
+               
+.list_usermsg li,.list_linemsg li,.list_postmsg li 
+{padding-left: 30px; display: block; list-style: none; overflow: hidden; 
+                 line-height: 25px; height: 25px; text-align: left;
+                  background: url(/Method/userImages/userbg.gif) no-repeat;}
+/*论坛管理*/
+.list_line h2{color:#986265;margin-top:5px;margin-left:10px;font-size:15px;font-weight:bold;height:20px;
+              line-height:20px; background:#F4F4F4;cursor:hand;padding:0 0 0 20px;background:url(/Method/userImages/usermsg.png) no-repeat;}
+
+/*投票管理*/
+.list_post h2{color:#986265;margin-top:5px;margin-left:10px;font-size:15px;font-weight:bold;height:20px;
+              line-height:20px; background:#F4F4F4;cursor:hand;padding:0 0 0 20px;background:url(/Method/userImages/userpost.png) no-repeat;}
+/*用户内容*/ 
+.userMsg{width:780px;float:right;margin-top:20px;height:600px;}

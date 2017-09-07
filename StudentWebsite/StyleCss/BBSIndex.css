@@ -1,0 +1,31 @@
+﻿.bbsTitle{background-image: url('../BBS/Images/Search.gif'); height: 33px;width: 680px; margin-left: 2px; 
+margin-top: 4px; margin-bottom: 8px; padding-top: 4px;float: left; background-repeat: no-repeat;}
+.bbsTiWen{float: right; margin-top: 3px; margin-right: 2px; background-image: url('../BBS/Images/ss_bg.gif');height: 22px;width: 75px;}
+.i_mid_news{border:1px #dfdfe0 solid; float:left; display:inline; width:680px; height:100%; margin-left:3px; overflow:hidden;}
+.i_right1{border:1px #e6e6e7 solid; float:left; display:inline; width:243px; height:245px; margin-left:0px; overflow:hidden;}
+.i_right1.content{ margin-top:2px;}
+.i_right1 .content ul{margin-left:12px; margin-top:8px;height:100%; margin-top:2px}
+.i_right1 .content li{line-height:21px; background:url('../BBS/Images/list_3.gif') no-repeat center left; padding-left:8px;}
+.i_right_news{border:1px #e6e6e7 solid; float:left; display:inline; width:250px; height:100%; margin-left:12px; overflow:hidden;}
+.i_right2{border:1px #e6e6e7 solid; float:left; display:inline; width:243px; height:245px; margin-left:8px; overflow:hidden;}
+.box_titler li{color:Blue;font-size:14px;}
+#con{font-size: 15px;margin: 0px auto; width: 600px;}
+#tagContent{border-right: #aecbd4 1px solid;padding-right: 1px; border-top: #aecbd4 1px solid;padding-left: 1px; padding-bottom: 1px;
+            border-left: #aecbd4 1px solid;padding-top: 1px;border-bottom: #aecbd4 1px solid;background-color: #fff;}
+.tagContent{padding-right: 10px;display: none;padding-left: 10px;background: url(../BBS/Images/bg.gif) repeat-x;padding-bottom: 10px;width: 576px;color: #474747;padding-top: 10px;height: 250px;}
+#tagContent DIV.selectTag{display: block;}
+/*论坛列表*/
+.newslist {margin: 0px 0px 0px;padding: 4px 5px;background:#f2f9fd url(../BBS/Images/right_BG.jpg) repeat-x left -10px;}
+.newslist dl {clear:both}
+.newslist dl dt.topic {margin-top:6px;font-weight: bold;font-size:15px; text-align:left}
+.newslist dl dd.desc {padding: 12px 0px;min-height: 1px; /* 解决float对象不自动增大问题 */height: auto;_height: 1px; /* 解决float对象不自动增大问题*/line-height: 150%;}
+.newslist dl dd.desc:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.newslist dl dd.desc {display:inline-block; text-align:left}
+.newslist dl dd.desc {display:block;}
+.newslist dl dd.desc img {float: right;}
+.newslist dl dd.detail {margin: 0px -3px;background:#f0f3f4;height:27px;line-height:27px;border-bottom:1px solid #ddedf7; text-align:left}
+.newslist dl dd.detail p {padding: 0px 10px 0px;}
+.newslist dl dd a:link,.newslist dl dd a:visited {color: #036;text-decoration: none;font-weight:normal;}
+.newslist dl dd a:hover {color: #E00;text-decoration: none;font-weight:normal;}
+@media all and (min-width:0px) { /* Opera only */.newslist dl dd {margin-top: 0px;}}
+.newslist dl dd span.ddmove{font-size:12px; color:#999999;font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none;}

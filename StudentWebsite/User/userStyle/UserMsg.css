@@ -1,0 +1,11 @@
+﻿/*信息表*/
+.UserInfo{color:#333;width:770px; height:400px; float:left;border: #D0DBE7 1px solid; margin-left:10px;}
+.tableUser{width: 700px; margin-left:20px; margin-top:20px}
+.tdUser{height:30px;}
+.tdImg{width: 130px;}
+.tdCosplan{height:30px; font-size:12pt;font-weight: bold;}
+/*文本框*/
+.txtStyle{width: 200px; padding: 5px; border: 1px solid #ccc;}
+.userpwd{margin-left:100px;color:#333;border: #D0DBE7 1px solid;width:500px;height:300px;}
+.userpwd table{width:450px;height:300px;}
+.btnEnter{margin-left:100px;}

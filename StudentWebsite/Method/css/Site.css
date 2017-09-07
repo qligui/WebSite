@@ -1,0 +1,49 @@
+﻿/*注册登录标题栏*/
+.navTol
+{
+    width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    background:url('/Method/Images/navBcakground.jpg');
+}
+.navLogin  
+{
+    padding:5px 0;text-align:right;
+}
+
+/*整体框架*/
+#mianContent
+{
+  width:950px;
+  margin-left:auto;
+  margin-right:auto;  
+}
+/* 导航栏*/
+ul,li{margin:0;padding:0; list-style:none;}
+.menu{width:950px;height:55px;margin:0 auto;background:url('/Method/Images/daohang1.png') repeat-x;
+}
+.menu ul{width:950px;float:left;height:55px;display:inline;}
+.menu ul li{width:115px;height:40px;line-height:40px; text-align:center; float:left;display:inline;
+    margin-right: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.menu ul li a{width:115px;height:40px; float:left;text-decoration:none; color:#fff; font-size:15px}
+.menu ul li a:hover{ text-decoration:none;background:url('/Method/Images/daohang2.png') repeat-x;
+}
+
+/*页面底部*/
+#footer 
+{
+    font-family:Arial;
+         height:5.5em;line-height:2.5;
+         color:#275c91;
+         margin: 10px 0px 5px 0px;
+         text-align: center;
+         background: #e7e7e7;
+         border: 1px solid #bed0e0;
+         width:950px; 
+         clear:both; 
+         float:left;
+}
+

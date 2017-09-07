@@ -1,0 +1,7 @@
+﻿body{background-color:#d2edfd;}
+.newstype{width:1000px; margin-left:150px;}
+.newstype1{width:1000px; margin-left:100px;}
+#tabelType td {text-align:center}
+.txtTitle { width: 800px; padding: 5px; border: 1px solid #ccc;}
+.txtAuthor { width: 300px; padding: 5px; border: 1px solid #ccc;}
+.pager{margin-left:400px;}

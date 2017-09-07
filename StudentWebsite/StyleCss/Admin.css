@@ -1,0 +1,41 @@
+﻿/*top栏*/
+*{margin:0;padding:0}
+body{width:100%;}
+li{list-style-type:none;}
+a:link {text-decoration: none;}
+.bgcolor{background:url('/Admin/Images/bgpic.jpg'); repeat: repeat-x;}
+#imgpx{margin-left:10px;}
+.topright{margin-top:-120px; margin-right:100px;}
+.topright ul{padding-top:15px; float:right; padding-right:15px;}
+.topright ul li{float:left; padding-left:9px; padding-right:9px; background:url('/Admin/Images/line.gif') no-repeat right;}
+.topright ul li:last-child{background:none;}
+.topright ul li a{font-size:14px; color:White;}
+.topright ul li a:hover{color:#fff;}
+.topright ul li span{margin-top:2px;float:left;padding-right:3px;}
+
+.user{height:30px;background:url('/Admin/Images/userbground.png') repeat-x;clear:both;margin-top:-55px;float:right; margin-right:12px;border-radius:30px; white-space:nowrap;position:relative;}
+.user span{display:inline-block;padding-right:10px; background:url('/Admin/Images/user.png') no-repeat 15px 10px; line-height:30px; font-size:14px;color:#b8ceda; padding-left:20px; padding-left:35px;}
+.user b{display:inline-block;width:20px;height:18px; background:url('/Admin/Images/msg.png');text-align:center; font-weight:normal; color:#fff;font-size:14px;margin-right:13px; margin-top:7px; line-height:18px;}
+.user i{display:inline-block;margin-right:5px;font-style:normal;line-height:30px; font-size:14px;color:#b8ceda;}
+
+.spanImg ul{margin-left:430px;margin-top:-90px;}
+.spanImg ul{list-style-type:none;width:350px;height:100px;}
+.spanImg ul li{float:left; margin:10px; display:inline;}
+.spanImg ul li a img{width:60px; height:60px; padding:5px;border:0;display:block;margin-left:auto;margin-right:auto;}
+.spanImg ul li a.txt{line-height:17px; color:White; display:block; text-align:center;}
+.spanImg ul li a:hover{color:White;}
+
+/*left栏*/
+.leftTop{background:url(/Admin/Images/lefttop.png);width:185px; height:40px;color:#fff;font-size:14px;line-height:40px; margin-top:-10px;}
+.leftTop span{margin-left:8px; margin-top:10px;margin-right:8px; background:url('/Admin/Images/leftico.png') no-repeat; width:20px; height:21px;float:left;}
+
+.sdmenu{margin-top:5px; width:185px;font-family:Arial, sans-serif;font-size:16px;padding-bottom:10px;background:url('/Admin/Images/bottom.jpg') no-repeat  right bottom;color:#fff; background-color:Blue;}
+.sdmenu div{background:url('/Admin/images/title.png') repeat-x;overflow:hidden;}
+.sdmenu div:first-child{background:url('/Admin/Images/listbg.png') no-repeat;}
+.sdmenu div.collapsed{height:25px;}
+.sdmenu div span{display:block;height:15px;line-height:15px;overflow:hidden;padding:5px 25px;font-weight:bold;color:white; background:url('/Admin/Images/expanded.gif') no-repeat 10px center;cursor:pointer;border-bottom:1px solid #ddd;}
+.sdmenu div.collapsed span{background-image:url('/Admin/Images/collapsed.gif');}
+.sdmenu div a{padding:5px 10px;background:#eee;display:block;border-bottom:1px solid #ddd;color:#404549;}
+.sdmenu div a.current{background:#ccc;}
+.sdmenu div a:hover{background:#07e0f3 url('/Admin/Images/linkarrow.gif') no-repeat right center;color:#fff;text-decoration:none;}
+

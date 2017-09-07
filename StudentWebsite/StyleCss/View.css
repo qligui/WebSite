@@ -1,0 +1,37 @@
+﻿.navlink_show{background:#F2F6FB;padding:7px 0 7px 5px; border:1px solid #ddedf7;font-size:12px;}
+.pb_mainbox_show {padding:0px;border:1px solid #baddf1;background: url(/BBS/Images/new_02.gif) repeat-x right 0px;}
+.pb_box_l_show{float:left;width:937px; 
+font-family: verdana, arial, helvetica, sans-serif; text-align:left;border-bottom:1px solid #f2f2f2; padding: 0 0 10px 0
+}
+.pb_box_l_show p{text-align:right}
+.pb_box_right_show {color:#999;line-height:22px;float:left;margin:5px 0;font-size:15px;margin-top:10px;}
+.pb_box_right_show span {margin:0px 6px;overflow:hidden;color: #a12a2a;line-height:8px;height:8px}
+.pb_box_right_show a{padding-left:4px;text-decoration:none}
+.pb_box_right_show a:hover {color: #EE1111} 
+.title{font-size:24px;font-weight: 900}
+.title a{text-decoration:none;}
+.title a:hover {color:#EE1111}
+.content{word-wrap:break-word; word-break:break-all;display:block;width:918px; 
+margin:9px; font-size:medium;
+}
+
+/*回答列表*/
+.newslist {margin: 0px 0px 0px;padding: 4px 5px;background:#f2f9fd url(/BBS/Images/right_BG.jpg) repeat-x left -10px;}
+.newslist dl {clear:both}
+.newslist dl dt.topic {margin-top:6px;font-weight: bold;font-size:14px; text-align:left}
+.newslist dl dt p.author {padding: 10px 0px 5px;font-weight: normal; font-size:12px; text-align:right;}
+.newslist dl dd.desc {padding: 12px 0px;min-height: 1px; /* 解决float对象不自动增大问题 */height: auto;_height: 1px; /* 解决float对象不自动增大问题*/line-height: 150%;}
+.newslist dl dd.desc:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.newslist dl dd.desc {display:inline-block; text-align:left}
+.newslist dl dd.desc {display:block;}
+.newslist dl dd.desc img {float: right;}
+.newslist dl dd.detail {margin: 0px -10px;background:#fff;height:27px;line-height:27px;border-bottom:1px solid #ddedf7; text-align:left}
+.newslist dl dd.detail p {padding: 0px 10px 0px;}
+.newslist dl dd a:link,.newslist dl dd a:visited {color: #036;text-decoration: none;font-weight:normal;}
+.newslist dl dd a:hover {color: #E00;text-decoration: none;font-weight:normal;}
+.newslist dl dd {margin-top: 0px;}
+.newslist dl dd span.ddmove{font-size:12px; color:#999999;font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none;}
+
+/*登录栏*/
+.OuputAnswer{margin-top:10px;margin-left:30px;}
+.YanZhen{width: 80px; padding: 5px; border: 1px solid #ccc;}

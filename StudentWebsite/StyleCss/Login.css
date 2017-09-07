@@ -1,0 +1,11 @@
+﻿.login_tip{margin:10px 0 0;color:#666;line-height:25px; height:25px; background:#dfe9f0; border:solid 1px #ccd0d3; padding:5px;}
+.login{color:#333;margin-left:240px;padding:0;float:left;
+}
+.login_name{width:500px;height:200px;}
+.login_title{font-weight:bold;margin-top:20px;font-size:20px;}
+.username, .password { width: 215px; padding: 5px; border: 1px solid #ccc;}
+.btnlogin{padding:5px;border:0px,solid #ccc  }
+.tablecolor{background-color:#f7f7f7;margin-top:10px;}
+.ddluser{padding:1px;border: 1px solid #ccc;
+}
+a { text-decoration:none; }

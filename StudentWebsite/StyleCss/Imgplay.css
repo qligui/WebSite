@@ -1,0 +1,54 @@
+#Imgplay
+{
+    width: 370px;	/* 图片的宽 */
+	height: 280px;	/* 图片的高 */ 
+    overflow: hidden;
+}
+
+#Imgplay a 
+{
+ position:absolute;
+ top:  0;
+ left: 0;
+}
+
+#Imgplay a img 
+{  
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    height:280px;
+    width:370px;
+}
+
+	/* 对单选按钮设定 */
+#Imgplay .abgne-controls 
+{
+		list-style: none; 
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		right: 10px;
+		bottom: 25px;
+		height: 20px;
+}
+#Imgplay .abgne-controls li 
+{
+		float: left;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 20px;
+		font-weight: 900;
+		text-align: center;
+		cursor: pointer;
+		margin-right: 2px;
+		color: #2693ff;
+		background-color: #fff;
+}
+#Imgplay .abgne-controls li.current 
+{ 
+		color: #fff;
+		background-color: #2693ff;
+		/*#0cf*/
+}

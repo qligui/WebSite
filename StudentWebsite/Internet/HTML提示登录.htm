@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>登录跳转页面</title>
+    <style type="text/css">
+    .mainDiv{margin-top:300px;font-size:20px;
+             width:950px;margin-left:auto;margin-right:auto;
+             }
+    </style>
+    <script type="text/javascript">
+        var leftSeconds = 5;
+        setInterval(function () {
+            if (leftSeconds <= 0) {
+                window.location.href = '../Login.aspx';
+            }
+            document.getElementById("leftDiv").innerText = leftSeconds;
+            leftSeconds--;
+        }, 1000);
+    </script>
+</head>
+<body>
+<div class="mainDiv">
+<span>您未登录，请先登录！页面将跳转到登录页面<a href="../Login.aspx">点击这里</a></span>
+<br />
+<center>
+还剩&nbsp;<span id="leftDiv">5</span>&nbsp;秒
+</center>
+</div>
+</body>
+</html>

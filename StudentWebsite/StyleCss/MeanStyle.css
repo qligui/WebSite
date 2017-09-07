@@ -1,0 +1,21 @@
+﻿#dll_list{width:100%;}
+#dll_list li{margin-bottom:10px;width:100%;}
+.ddlist_info{width:100%;float:left;}
+.ddlist_info h2{position:relative;width:100%;display:block;margin-bottom:10px;
+                height:1.4em;font-size:14px;top:0px;left:0px;overflow:hidden;}
+.ddlist_info h2 a:link{color:#005a94;font-weight:bold;}
+.ddlist_info h2 a:visited{color:#005a94;font-weight:bold;}
+.ddlist_info h2 a:active{color:#005a94;font-weight:bold;}
+.ddlist_info h2 a:hover{color:#f60;text-decoration:none;}
+.ddlist_info h2 a.deepred:link{color:#c40300;font-weight:normal;}
+.ddllist_summary{line-height:1.5em;min-height:25px;width:100%;margin-bottom:10px;
+                 height:auto;color:#646464;}
+.ddlist_img{float:right;margin-left:15px;margin-right:10px;}
+.ddlist_more{margin-top:10px;margin-bottom:15px;overflow:hidden;}
+.ddlist_more img{margin-bottom:2px;margin-right:10px;}
+.ddlist_more a:link{color:#9b9b9b;text-decoration:none;}
+.ddlist_more a:visited{color:#9b9b9b;text-decoration:none;}
+.ddlist_more a:active{color:#9b9b9b;text-decoration:none;}
+.ddlist_more a:hover{color:#f60;}
+.green{color:Green;}
+.txtSize{font-size:14px;}

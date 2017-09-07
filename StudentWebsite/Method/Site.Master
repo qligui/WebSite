@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="StudentWebsite.Method.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    a{text-decoration:none;}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="navTol">
+ <div class="navLogin">
+<span id="logind">
+<%if (Session["是否登录"] == null)
+  { %>
+<a href="../Register.aspx" title="注册">注册</a> | 
+<a href="../Login.aspx">登录</a> | 
+收藏本站 | 设为首页 | 
+<%}
+  else
+  { %>
+  你好：<a href="#"><%=Session["UserName"]%></a>|<a href='../User/userIndex.aspx?id=<%=Session["UserId"] %>'>用户中心</a>|<asp:LinkButton ID="Linkbtn" 
+         runat="server" onclick="Linkbtn_Click" EnableViewState="false">退出登录</asp:LinkButton> |
+  <%} %>
+<a href="#" title="RSS订阅">RSS订阅</a>
+</span>
+</div>
+</div>
+
+<div id="mianContent">
+<div id="mainImg">
+<img src="~/Method/Images/mianTitle.png" style="width: 950px" runat="server"/>
+</div>
+
+<div class="menu">
+<ul>
+<li><a href="../Default.aspx">首页</a></li>
+<li><a href="#">网站简介</a></li>
+<li><a href="../News/NewsList.aspx">新闻中心</a></li>
+<li><a href="../News/WorkList.aspx">行业知识库</a></li>
+<li><a href="../News/ProList.aspx">创业专题</a></li>
+<li><a href="../BBS/Index.aspx">创业论坛</a></li>
+<li><a href="../Means/MeansList.aspx">资料下载</a></li>
+<li><a href="../Test/ResplaceTest.aspx">创业测试</a></li>
+</ul>
+
+</div>
+<div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+<div id="footer">
+<div>
+校园服务 | <a href="../Message.aspx">留言板</a> | 关于我们 | 友情链接<br />Copyright (c) 2015-2016 , 毕业设计
+</div>
+</div>
+
+</div>
+    </form>
+</body>
+</html>
